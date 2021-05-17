@@ -1,10 +1,10 @@
 import React from 'react';
 import '../App.css';
-import {FaPlus, FaSearch, FaCross} from 'react-icons/fa';
+import {FaPlus, FaSearch,FaTimes} from 'react-icons/fa';
 const Icons = (props) => {
     switch (props.name) {
         case 'cross':
-            return <FaCross className="icon" />
+            return <FaTimes className="icon" />
         case 'plus':
             return <FaPlus className="icon" />
         case 'search':

@@ -3,8 +3,7 @@ import React from 'react';
 import Icons from './Icons';
 const Button = (props) => {
     return(
-        <button id={props.id} className={props.className}><Icons name={props.icon}/>  {props.value}</button>
-
+        <button id={props.id} className={props.className} onClick={props.onClick}><Icons name={props.icon} />  {props.value}</button>
     )
 }
 export default Button;
